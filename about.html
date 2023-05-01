@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="with="device-width, initial-scale=1.0">
+  <title>GAHOL,Ryan Aldrich</title>
+  <link rel="stylesheet" href="style.css"
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <section class="sub-header">
+    <nav>
+	  <a href="index.html"><img src="images/logo.png" alt=""></a>
+	  <div class="nav-links" id="navLinks">
+	    <i class="fa fa-times" onclick="hideMenu()"></i>
+	    <ul>
+		  <li><a href="index.html">HOME</a></li>
+		  <li><a href="about.html">ABOUT</a></li>
+		  <li><a href="course.html">RESOURCES</a></li>
+		  <li><a href="blog.html">BLOG</a></li>
+		  <li><a href="contact.html">CONTACT</a></li>
+		</ul>
+	  </div>
+	  <i class="fa fa-bars" onclick="showMenu()"></i>
+	</nav>
+	<h1>About Us</h1>
+  </section>
+  
+<!------- about us content ------->
+
+<section class="about-us">
+  
+  <div class="row">
+    <div class="about-col">
+	  <p>Welcome to our website! Our purpose is to raise awareness about the issue of internet addiction among young people and provide resources to promote healthy internet usage habits. On this page, you can learn more about our approach and the information and resources we offer.</p>
+	  <p>Internet addiction is a growing problem, particularly among young people. Studies have shown that excessive internet use can have negative impacts on physical health, including increased risk of obesity, poor sleep quality, and eye strain. As more and more young people spend increasing amounts of time online, it's essential to address this issue and promote healthy internet usage habits.</p>
+	  <p>We provide resources and strategies to help young people manage their internet use, such as setting healthy boundaries, practicing self-care, and developing positive offline hobbies and relationships. Additionally, our website offers informative articles, infographics, and other resources to raise awareness and educate young people about the importance of developing healthy internet usage habits.</p>
+	</div>
+	<div class="about-col">
+	  <img src="images/about.jpg">
+	</div>
+	  
+  </div>
+  
+</section>
+ 
+<!--------JavaScript for Toggle Menu--------> 
+<script>
+   
+   var navLinks = document.getElementById("navLinks");
+   function showMenu(){
+      navLinks.style.right = "0";
+   }
+   function hideMenu(){
+      navLinks.style.right = "-200px";
+   }
+ 
+</script>
+  
+
+<!-------- Footer ------->
+
+<section class="footer">
+   <h4>About Us</h4>
+   <p>Through our research and insights, we hope to empower young people to develop healthy internet usage habits and to prevent the negative consequences of excessive internet use.<br>Join us in creating a healthier and safer online community for young people.</p>
+   <div class="icons">
+     <i class="fa fa-facebook"></i>
+	 <i class="fa fa-twitter"></i>	
+	 <i class="fa fa-instagram"></i>
+	 <i class="fa fa-linkedin"></i>
+   </div>
+   <p>Made with <i class="fa fa-heart-o"></i> by Ryan Aldrich Gahol</p>
+</section>
+
+
+</body>
+</html>

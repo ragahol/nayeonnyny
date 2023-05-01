@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="with="device-width, initial-scale=1.0">
+  <title>GAHOL,Ryan Aldrich</title>
+  <link rel="stylesheet" href="style.css"
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <section class="sub-header">
+    <nav>
+	  <a href="index.html"><img src="images/logo.png" alt=""></a>
+	  <div class="nav-links" id="navLinks">
+	    <i class="fa fa-times" onclick="hideMenu()"></i>
+	    <ul>
+		  <li><a href="index.html">HOME</a></li>
+		  <li><a href="about.html">ABOUT</a></li>
+		  <li><a href="course.html">RESOURCES</a></li>
+		  <li><a href="blog.html">BLOG</a></li>
+		  <li><a href="contact.html">CONTACT</a></li>
+		</ul>
+	  </div>
+	  <i class="fa fa-bars" onclick="showMenu()"></i>
+	</nav>
+	<h1>Stories</h1>
+  </section>
+  
+  <!------- blog page content ------->
+  
+  <section class="blog-content"> 
+  
+    <div class="row">
+	  <div class="blog-left">
+	    <img src="images/certificate.jpg">
+		
+
+<div class="comment-box">
+
+  <h3>Share your story</h3>
+  
+  <form class="comment-form">
+    <input type="text" placeholder="Enter Name">
+	<input type="email" placeholder="Enter Email">
+	<textarea rows="5" placeholder="Your story/experience"></textarea>
+	<button type="submit" class="hero-btn red-btn"> SHARE STORY</button>
+  </form>
+</div>
+	
+
+	  </div>
+	  <div class="blog-right">
+	  <h3>"My son was addicted to the Internet": A mother's story of the battle to save her teenager's life from online gaming</h3>
+	  <p>When my son was 17, he came to my bedroom one evening for a rare heart-to-heart. "Mum, I want to stop. I need to stop. But I’m scared of upsetting people." I knew Connor’s three-year addiction to computer gaming had been ruining his life.<br>My son, Connor, was a talented musician and athlete with a bright future ahead of him. But when he discovered online gaming, everything changed. He became withdrawn, stopped attending school, and spent all of his time playing games on the computer.
+
+At first, I didn't realize the severity of his addiction. I tried to limit his internet use and encourage him to participate in other activities, but he always found a way to sneak back to the computer.
+
+As his addiction worsened, I had to take drastic measures. I quit my job to be home with him more, but he still found ways to sneak online. He even went missing for a week at one point, and I had to call the police to find him.
+
+Eventually, Connor's addiction became so severe that he needed professional help. He attended an addiction treatment center and began therapy. It was a long and difficult journey, but with the support of our family and the professionals who helped us, Connor was able to overcome his addiction.
+
+Now, Connor is doing well. He's back in school and has a part-time job. He still enjoys playing games, but he's learned to balance his online activities with real-life responsibilities and hobbies.
+
+As a mother, I hope that sharing my story will help others recognize the signs of internet addiction and get the help they need.<br><br>https://nationalpost.com/health/my-son-was-addicted-to-the-internet-a-mothers-story-of-the-battle-to-save-her-teens-life-from-online-gaming</p>
+	  </div>
+    </div>  
+
+
+  
+
+ 
+<!--------JavaScript for Toggle Menu--------> 
+<script>
+   
+   var navLinks = document.getElementById("navLinks");
+   function showMenu(){
+      navLinks.style.right = "0";
+   }
+   function hideMenu(){
+      navLinks.style.right = "-200px";
+   }
+ 
+</script>
+  
+
+<!-------- Footer ------->
+
+<section class="footer">
+   <h4>About Us</h4>
+   <p>Through our research and insights, we hope to empower young people to develop healthy internet usage habits and to prevent the negative consequences of excessive internet use.<br>Join us in creating a healthier and safer online community for young people.</p>
+   <div class="icons">
+     <i class="fa fa-facebook"></i>
+	 <i class="fa fa-twitter"></i>	
+	 <i class="fa fa-instagram"></i>
+	 <i class="fa fa-linkedin"></i>
+   </div>
+   <p>Made with <i class="fa fa-heart-o"></i> by Ryan Aldrich Gahol</p>
+</section>
+
+
+</body>
+</html>
